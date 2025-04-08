@@ -1,27 +1,36 @@
 body {
-    background-color: chocolate;
-  }
+  background-color: chocolate;
+}
 
-  html, body{
-    margin: 0%;
-    padding: 0%;
-  }
+html, body {
+  margin: 0; /* Removendo o "%" desnecessário */
+  padding: 0;
+}
 
-  header{
-    text-align: center;
-    background-color: rgb(39, 44, 112) ;
-    padding: 20px;
-  }
+header {
+  text-align: center;
+  background-color: rgb(39, 44, 112);
+  padding: 20px;
+}
 
-  header img{
-    width: 300px;
-    height: 300px;
-    border: 20px solid rgb(55, 110, 141);
-    border-radius: 50%;
-  }
+header img {
+  width: 300px;
+  height: 300px;
+  border: 20px solid rgb(55, 110, 141);
+  border-radius: 50%;
+}
 
-  header h1{
-    font-family: "rajdhani", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+header h1 {
+  font-family: "rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+main img {
+  max-width: 100% ;
+}
